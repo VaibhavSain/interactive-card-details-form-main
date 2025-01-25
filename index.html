@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> 
+  <title>Interactive card details form</title>
+</head>
+<body>
+  
+ <main>
+  <img src="bg-main-desktop.png" alt="bg-main" class="bg-main">
+  <img src="bg-card-front.png" alt="card-front" class="card-front">
+  <img src="bg-card-back.png" alt="card-back" class="card-back">
+
+
+  <i id="card-number">0000 0000 0000 0000</i>
+  <i id="card-name">Jane Appleseed</i>
+  <i class="date-month">
+  <i id="year">00</i>/<i id="month">00</i>
+  </i>
+  <i id="cvc">000</i>
+
+
+
+  <div  id="form">
+  <i class="card-holder">Cardholder Name</i>
+  <input type="text" required id="name-input" class="name-input" placeholder="e.g. Jane Appleseed">
+
+  <i class="holder-number">Card Number</i>
+  <input type="text" required class="number-input" placeholder="e.g. 1234 5678 9123 0000">
+
+  
+  <i class="cvc">CVC</i>
+
+  <i class="exp">Exp. Date (MM/YY)</i>
+
+  <input type="text" required  class="month-input" placeholder="MM">
+  <input type="text" required class="year-input" placeholder="YY">
+  <input type="text" required  class="cvc-input" placeholder="e.g. 123">
+  <button id="Btn"    class="btn">Confirm</button>
+  </div>
+
+
+ 
+ </main>
+
+</body>
+<script src="script.js"></script>
+</html>

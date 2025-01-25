@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.bg-main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 48rem;
+}
+.card-front {
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    height: 16rem;
+}
+.card-back {
+    position: absolute;
+    top: 26rem;
+    left: 16rem;
+    height: 16rem;
+}
+.card-holder {
+    position:absolute;
+    top: 14rem;
+    right: 24.3rem;
+    color: black;
+    font-style: normal;
+    font-weight: 580;
+}
+.name-input {
+    position: absolute;
+    top: 16rem;
+    right: 12rem;
+    height: 2rem;
+    font-size: 20px;
+    width: 20rem;
+    border-radius:8px;
+    border: 1px solid slategray;
+    padding-left: 15px; 
+}
+.holder-number {
+    position:absolute;
+    top: 19rem;
+    right: 26.5rem;
+    color: black;
+    font-style: normal;
+    font-weight: 580;
+}
+.number-input {
+    position: absolute;
+    top: 21rem;
+    right: 12rem;
+    height: 2rem;
+    width: 20rem;
+    font-size: 20px;
+    border-radius:8px;
+    border: 1px solid slategray;
+    padding-left: 15px; 
+}
+#card-number {
+    position: absolute;
+    top: 16rem;
+    color: white;
+    left: 12rem;
+    font-size: 28px;
+    letter-spacing: 7px;
+    font-style: normal;
+}
+#card-name {
+    position: absolute;
+    top: 20rem;
+    color: white;
+    left: 12rem;
+    font-size: 18px;
+    font-style: normal;
+}
+.date-month {
+    position: absolute;
+    top: 20rem;
+    color: white;
+    left: 34rem;
+    font-size: 18px;
+    font-style: normal;
+}
+#cvc {
+    position: absolute;
+    top: 33rem;
+    color: white;
+    left: 39rem;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.month-input {
+    position: absolute;
+    top: 26rem;
+    right: 28.5rem;
+    height: 2rem;
+    width: 3.5rem;
+    border-radius:8px;
+    font-size: 20px;
+    border: 1px solid slategray;
+    padding-left: 15px; 
+}
+.year-input {
+    position: absolute;
+    top: 26rem;
+    right: 23rem;
+    height: 2rem;
+    font-size: 20px;
+    width: 3.5rem;
+    border-radius:8px;
+    border: 1px solid slategray;
+    padding-left: 15px; 
+}
+
+.exp {
+    position: absolute;
+    top: 24rem;
+    right: 24rem;
+    color: black;
+    font-style: normal;
+    font-weight: 580;
+}
+.cvc {
+    position: absolute;
+    top: 24rem;
+    right: 20rem;
+    color: black;
+    font-style: normal;
+    font-weight: 580;
+}
+.cvc-input {
+    position: absolute;
+    top: 26rem;
+    right: 12rem;
+    height: 2rem;
+    font-size: 20px;
+    width: 9rem;
+    border-radius:8px;
+    border: 1px solid slategray;
+    padding-left: 15px; 
+}
+.btn {
+    position: absolute;
+    top: 30rem;
+    right: 12rem;
+    height: 2.5rem;
+    width: 21rem;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: #220930;
+    border-radius:8px;
+}
+#form {
+    display: block;
+
+}
+
+.thank {
+    position: absolute;
+    top: 20rem;
+    display: none;
+    right: 12rem;
+    text-align: center;
+}
+.btn1 {
+    height: 2.5rem;
+    margin-top: 1rem;
+    width: 21rem;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-color: #220930;
+    border-radius:8px;
+}
+.icon {
+    margin-bottom: 1rem;
+}
+.heading {
+    margin-bottom: 1rem;
+
+}
+.thank-para {
+    color: slategrey;
+    margin-bottom: 1rem;
+}
